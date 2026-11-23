@@ -48,7 +48,6 @@ It also visualizes monthly sales and profit trends, category-level sales and pro
 - [Excel analysis workbook](2_Ecommerce%20Sales%20Data%20Analysis%20Excel.xlsx)
 - [Power BI dashboard report (PDF)](1.PowerBI%20Ecommrce%20sales%20dashboard.pdf)
 - [Excel analysis report (PDF)](2.Data%20Analysis%20in%20Excel.pdf)
-- [Dashboard and Excel screenshots](dashboard%20and%20Excel%20analysis%20photos/)
 
 ## How to Use
 
