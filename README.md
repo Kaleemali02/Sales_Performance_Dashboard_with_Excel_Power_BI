@@ -5,7 +5,7 @@
 **Tools:** Microsoft Excel, Power BI, Power Query, DAX, Python (data preparation)
 
 ## Project overview
-This refreshed project analyzes revenue and target performance across dates, regions, sales representatives, products, product categories, and discount levels. The replacement source dataset contains 500 records and 10 original fields. Derived fields include month, target variance, target achievement percentage, and discount band.
+This project analyzes revenue and target performance across dates, regions, sales representatives, products, product categories, and discount levels. The replacement source dataset contains 500 records and 10 original fields. Derived fields include month, target variance, target achievement percentage, and discount band.
 
 ## Dataset fields
 `date`, `region`, `sales_rep`, `product_id`, `category`, `units_sold`, `unit_price`, `revenue`, `target`, `discount_pct`.
@@ -29,18 +29,17 @@ The source does not include product cost, profit, customer identifiers, order id
 6. How does revenue and target achievement vary across discount bands?
 
 ## Files in this repository
-- [Cleaned dataset with derived fields](sales_performance_dataset.csv)
 - [Power BI DAX measures](PowerBI_DAX_Measures.md)
-- [Power BI setup and Power Query guide](PowerBI_Setup_Guide.md)
-- [Monthly summary](monthly_sales_summary.csv)
-- [Regional summary](regional_sales_summary.csv)
+- [Power BI setup guide](PowerBI_Setup_Guide.md)
+- [Monthly sales summary](monthly_sales_summary.csv)
+- [Regional sales summary](regional_sales_summary.csv)
 - [Sales representative summary](sales_rep_summary.csv)
-- [Category summary](category_sales_summary.csv)
-- [Product summary](product_sales_summary.csv)
+- [Category sales summary](category_sales_summary.csv)
+- [Product sales summary](product_sales_summary.csv)
 - [Discount analysis summary](discount_analysis_summary.csv)
 
-## Excel workbook and report
-The companion project bundle contains the rebuilt Excel dashboard workbook and a PDF analysis report. The workbook includes a Dashboard sheet with five charts, a 500-row cleaned-data sheet, monthly, regional, representative, category, product and discount analysis sheets, plus a data dictionary.
+## Companion project files
+The rebuilt Excel workbook and PDF analysis report were generated separately. They are available in the project bundle supplied in this conversation. The current GitHub connection supports text-file commits, but does not provide a binary-file upload action for `.xlsx`, `.pdf`, or `.zip` files; those files have therefore not been committed to this repository.
 
 ## Power BI report layout
 Recommended visuals: KPI cards for revenue, target, target achievement, target variance, units sold and average discount; monthly revenue-vs-target line chart; regional revenue bar chart; category revenue donut; sales-rep ranking; discount-band revenue chart. Add slicers for date, region, category and sales representative.
